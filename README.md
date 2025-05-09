@@ -7,46 +7,46 @@ The Recipe Book app is a comprehensive Android application designed for food ent
 
 Recipe Display
 
-1 View detailed recipes with images, ingredients, and cooking instructions.
+-View detailed recipes with images, ingredients, and cooking instructions.
 
-2 Categorized by Breakfast, Lunch, Dinner, and Dessert.
+-Categorized by Breakfast, Lunch, Dinner, and Dessert.
 
 Search & Filters
 
-1 SearchView to find recipes by title or ingredients.
+-SearchView to find recipes by title or ingredients.
 
-2 Category-based filtering via a dropdown menu.
+-Category-based filtering via a dropdown menu.
 
 User-Created Recipes
 
-1 Users can add, edit, and delete their own recipes.
+-Users can add, edit, and delete their own recipes.
 
 Meal Planner Module
 
-1 Weekly planner allowing users to assign recipes to days of the week.
+-Weekly planner allowing users to assign recipes to days of the week.
 
 Shopping List Generator
 
-1 Auto-generates a shopping list based on selected recipes.
+-Auto-generates a shopping list based on selected recipes.
 
 Recipe Rating System
 
-1 Users can rate recipes (1–5 stars) using a RatingBar.
+-Users can rate recipes (1–5 stars) using a RatingBar.
 
-2 Average ratings shown in recipe listings.
+-Average ratings shown in recipe listings.
 
 User Profile Module
-1 Store and manage user information, dietary preferences, and favorite recipes.
+-Store and manage user information, dietary preferences, and favorite recipes.
 
 Favorites & Instructions Segmentation
 
-1 Mark recipes as favorite.
+-Mark recipes as favorite.
 
-2 Ingredients and instructions are stored and displayed separately.
+-Ingredients and instructions are stored and displayed separately.
 
 Splash Screen and Loading Animation
 
-1 Modern splash screen and progress bar for data loading.
+-Modern splash screen and progress bar for data loading.
 
 **Technologies Used:**
 Programming Language: Java
