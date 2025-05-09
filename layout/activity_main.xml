@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Search bar for filtering recipes -->
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search recipes"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Spinner to select main category -->
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Button to show subcategories (initially hidden) -->
+    <Button
+        android:id="@+id/btnSubmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Submenu"
+        android:visibility="gone"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Button to add a new recipe -->
+    <Button
+        android:id="@+id/btnAddRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Recipe"
+        android:layout_marginBottom="8dp" />
+
+    <!-- RecyclerView for displaying recipes -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Progress bar centered at the bottom -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>
